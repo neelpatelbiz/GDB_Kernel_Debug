@@ -1,0 +1,7 @@
+*.img
+*.iso
+linux*
+*.swp
+*.swo
+*.swn
+*.qcow2

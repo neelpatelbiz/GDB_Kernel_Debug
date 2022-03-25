@@ -1,0 +1,13 @@
+Works on debian
+
+
+Building kernel
+```
+./configure.sh
+./buildAll.sh
+```
+
+Running Qemu with initrd, output to terminal, gdb on port :1234
+```
+./qemu-initrd.sh
+```
