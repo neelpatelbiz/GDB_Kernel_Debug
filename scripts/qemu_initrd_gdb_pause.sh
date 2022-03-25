@@ -9,5 +9,6 @@ fi
 ${Qemu_x86} -smp ${cpus} -m ${mem} \
 	-kernel ${BUILD_DIR}/${Linux_Version}/arch/x86_64/boot/bzImage \
 	-initrd ${BUILD_DIR}/ramdisk.img \
-	-append "console=ttyS0 nokaslr" \
-	-nographic
+	-s -S \
+	-nographic \
+	-append "console=ttyS0 nokaslr"
