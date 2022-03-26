@@ -16,3 +16,4 @@ gdb target remote :1234 with symbols from vmlinux
 ```
 ./scripts/debug_running_kernel
 ```
+ubu:root

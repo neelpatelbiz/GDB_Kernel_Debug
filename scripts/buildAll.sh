@@ -1,5 +1,3 @@
-source settings.sh
-echo "compiling kernel using cpus ..."
-export cpus=$1
-./retrieve_compile_kernel.sh
-./copy_scripts.sh
+source scripts/settings.sh
+./scripts/retrieve_compile_kernel.sh
+./scripts/rootfs_retrieve.sh

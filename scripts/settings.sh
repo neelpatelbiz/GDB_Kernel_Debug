@@ -9,3 +9,5 @@ export Lin_Path=${BUILD_DIR}/${Linux_Version}
 export GDB=$(which gdb)
 export ubu_iso=${BUILD_DIR}/ubuntu-20.04.4-live-server-amd64.iso
 export disk_image=${BUILD_DIR}/drive1.qcow2
+export rootfs=${BUILD_DIR}/root-filesystem-x86_64
+export rootdisk=${BUILD_DIR}/disk1.img
