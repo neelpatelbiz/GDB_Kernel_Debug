@@ -7,3 +7,5 @@ export mem="2048"
 export Linux_Version="linux-5.15.31"
 export Lin_Path=${BUILD_DIR}/${Linux_Version}
 export GDB=$(which gdb)
+export ubu_iso=${BUILD_DIR}/ubuntu-20.04.4-live-server-amd64.iso
+export disk_image=${BUILD_DIR}/drive1.qcow2
