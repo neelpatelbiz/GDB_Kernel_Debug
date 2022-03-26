@@ -2,7 +2,7 @@
 source scripts/settings.sh
 
 cd ${BUILD_DIR}
-[[ ! -f "${Linux_Version}.tar.xz" ]] && wget https://cdn.kernel.org/pub/linux/kernel/v5.x/${Linux_Version}.tar.xz
+[[ ! -f "${Linux_Version}.tar.xz" ]] && wget https://cdn.kernel.org/pub/linux/kernel/v5.x/${Linux_Version}.tar.xz --no-check-certificate
 if [[ ! -d "${Lin_Path}" ]]; then 
 	tar xvof ${Linux_Version}.tar.xz
 	cd ${Linux_Version}
